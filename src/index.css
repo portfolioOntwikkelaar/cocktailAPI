@@ -1,11 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Laila:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway+Dots&display=swap');
 /* 
 ====== 
 Variables 
 ======
 */
 :root {
-  --primaryLightColor: #d4e6a5;
-  --primaryColor: #476a2e;
+  --primaryLightColor: linear-gradient(to right bottom, #d94a00, #db681e, #dd8139, #e09855, #e2ad73, #e9a56f, #ef9c6e, #f5926f, #fd5e6e, #f40089, #cc00b8, #5516ef);
+  --primaryColor: linear-gradient(to left top, #d94a00, #db681e, #dd8139, #e09855, #e2ad73, #e9a56f, #ef9c6e, #f5926f, #fd5e6e, #f40089, #cc00b8, #5516ef);;
   --primaryDarkColor: #c02c03;
   --mainWhite: #fff;
   --offWhite: #f7f7f7;
@@ -155,6 +157,7 @@ Navbar
   text-transform: capitalize;
   display: inline-block;
   font-weight: bold;
+  font-family: 'Laila';
   margin-right: 0.5rem;
   font-weight: 400;
   letter-spacing: 2px;
@@ -166,7 +169,7 @@ Navbar
   color: var(--primaryColor);
 }
 .logo {
-  width: 12rem;
+  width: 5rem;
 }
 /* 
 ====== 
@@ -290,9 +293,10 @@ Form
 .form-control label {
   display: block;
   margin-bottom: 1.25rem;
-  font-weight: bold;
+  font-weight: 900;
   letter-spacing: 0.25rem;
   color: var(--primaryColor);
+  font-family: 'Raleway Dots';
 }
 .form-control input {
   width: 100%;
